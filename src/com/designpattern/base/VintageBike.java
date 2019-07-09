@@ -1,0 +1,13 @@
+package com.designpattern.base;
+
+import com.designpattern.java.BikeColor;
+
+public class VintageBike extends RoadBike {
+    public VintageBike(WheelInterface wheel, BikeColor color) {
+        super(wheel,color);
+    }
+
+    public VintageBike(WheelInterface wheel) {
+        this(wheel, BikeColor.SHINY);
+    }
+}
