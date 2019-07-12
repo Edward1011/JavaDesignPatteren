@@ -11,4 +11,9 @@ public abstract class RoadBike extends AbstractBike {
     protected RoadBike(WheelInterface wheel){
         this(wheel,BikeColor.ORANGE);
     }
+
+    @Override
+    public float getPrice() {
+        return 670.00F;
+    }
 }

@@ -1,4 +1,7 @@
 package com.designpatterns.abstractfactory;
 
-public class AbstractBikeFactory {
+public abstract class AbstractBikeFactory {
+    public abstract BikeFrameInterface createFrame();
+    public abstract  BikeSeatInterface createSeat();
+
 }

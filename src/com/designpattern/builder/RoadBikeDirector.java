@@ -1,4 +1,12 @@
 package com.designpattern.builder;
 
-public class RoadBikeDirector {
+import com.designpattern.base.BikeInterface;
+
+public class RoadBikeDirector extends BikeDirector {
+    @Override
+    public BikeInterface build(BikeBuilder builder) {
+        builder.buildHandleBars();
+        builder.buildStreetTires();
+        return builder.getBike();
+    }
 }

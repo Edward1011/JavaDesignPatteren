@@ -10,5 +10,7 @@ public abstract class MountainBike extends AbstractBike {
 
     protected MountainBike(WheelInterface wheel) {
         this(wheel, BikeColor.YELLOW);
+
     }
 }
+

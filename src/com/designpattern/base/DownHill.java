@@ -11,4 +11,9 @@ public DownHill(WheelInterface wheel, BikeColor color){
 public DownHill(WheelInterface wheel) {
     this(wheel, BikeColor.RED);
 }
+
+    @Override
+    public float getPrice() {
+        return 870.00f;
+    }
 }

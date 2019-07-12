@@ -1,4 +1,11 @@
 package com.designpattern.Adaptar;
 
-public class UltraWheelAdaptar {
+import com.designpattern.base.AbstractWheel;
+
+public class UltraWheelAdaptar extends AbstractWheel {
+public UltraWheelAdaptar(UltraWheel ultrawheel)     {
+    //public AbstractWheel(int size, boolean wide)
+    super(ultrawheel.getWheelSize(), false);
+
+}
 }

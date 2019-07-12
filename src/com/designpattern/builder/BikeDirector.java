@@ -1,4 +1,6 @@
 package com.designpattern.builder;
 
-public class BikeDirector {
+import com.designpattern.base.BikeInterface;
+public abstract class BikeDirector {
+    public abstract BikeInterface build(BikeBuilder buildeR);
 }
